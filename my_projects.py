@@ -165,7 +165,7 @@ while True :
 		nice=("")
 		g=input('? ')
 		try:
-			os.chdir(g)
+			os.system('cd /'+g)
 		except:
 			print(R+'File Not Found')
 	if g == mlenc :
