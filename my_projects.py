@@ -143,7 +143,7 @@ while True :
 		print (Y+name + R+'\t#'+G+'change name ')
 		print (Y+create_various + R+'\t#'+G+'   create various to destroy ani phone dont start the output in your phone')
 		print (Y+sd + R+'\t#'+G+'cd /sdcard')
-		print (Y+mkdir + R+'\t#'+G+'dailite any file')
+		print (Y+mkdir + R+'\t#'+G+'to create file')
 		print (Y+lib + R+'\t#'+G+'download all python library ')
 		print (Y+clear + R+'\t#'+G+'clear ')
 		print (Y+open_url + R+'\t#'+G+'open url in Google ')
