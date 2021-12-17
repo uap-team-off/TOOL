@@ -122,16 +122,11 @@ while True :
 			file.write('{}'.format(d))
 	if g == DDOS:
 		nice = ("")
-		try :
-			os.system("cd hammer")
-			os.system("chmod +x hammer.py")
-			os.system("python hammer.py")
-		except:
-			os.system("pkg install git")
-			os.system("git clone https://github.com/cyweb/hammer.git")
-			os.system("cd hammer ")
-			os.system("chmod +x hammer.py")
-			os.system("python hammer.py")
+		os.system("pkg install git")
+		os.system("git clone https://github.com/cyweb/hammer.git")
+		os.system("cd hammer ")
+		os.system("chmod +x hammer.py")
+		os.system("python hammer.py")
 	if g == pip :
 		nice=("")
 		print (v)
